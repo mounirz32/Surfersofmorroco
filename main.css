@@ -35,9 +35,43 @@ button {
    color: #fff;
 }
 
-.social, .contact-btn {
+.contact-btn {
    text-decoration: none;
    color: #fff;
    font-size: 1.4rem;
    font-family: 'Roboto', sans-serif;
+   margin-right: 1em;
+   letter-spacing: 1px;
 }
+
+.social {
+   position: relative;
+   width: 30%;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.insta-icon {
+   color: #fff;
+   font-size: 1.4em;
+   margin-right: .2em;
+}
+
+.fb-icon {
+   color: #fff;
+   font-size: 1.3em;
+   margin-right: 1em;
+}
+
+.ytb-icon , .fa-youtube-square{
+   font-size: 1.3em;
+   color: #ff0011;
+   height: auto;
+}
+
+.ytb-icon {
+   background-color: #fff;
+   background-size: 1.3em;
+}
+
